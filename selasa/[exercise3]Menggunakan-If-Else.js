@@ -1,7 +1,7 @@
-var nama = 'angga';
+var nama = '';
 // PILIH PERAN MU WAJIB! AWALI DENGAN HURUF BESAR
 // Ksatria atau Tabib atau Penyihir
-var peran = 'Ksatria';
+var peran = '';
 
 if (nama !== '') {
     if (peran === '') {
