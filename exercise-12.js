@@ -1,11 +1,11 @@
 function konversiMenit(menit) {
-    var ambilDepan = Math.floor(menit/60);
-    var ambilDetik = menit % 60;
-        if (ambilDetik < 10) {
-            ambilDetik = '0' + ambilDetik;
+    var ambilJam = Math.floor(menit/60);
+    var ambilMenit = menit % 60;
+        if (ambilMenit < 10) {
+            ambilMenit = '0' + ambilMenit;
         }
 
-    return ambilDepan + ':' + ambilDetik;
+    return ambilJam + ':' + ambilMenit;
 }
 
 // TEST CASES
