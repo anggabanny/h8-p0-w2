@@ -33,7 +33,7 @@
 
         IF 'year' MOD 4 equal to 0 AND 'year' MOD 100 no equal to 0
             DISPLAY 'ini tahun kabisat'
-        IF 'year' MOD 4 equal to 0 AND 'year' MOD 100 equal to 0 AND 'year' MOD 400 equal to 0
+        ELSE IF 'year' MOD 4 equal to 0 AND 'year' MOD 100 equal to 0 AND 'year' MOD 400 equal to 0
             DISPLAY 'ini tahun kabisat'
         ELSE
             DISPLAY 'ini bukan tahun kabisat'
