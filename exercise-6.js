@@ -36,9 +36,9 @@ console.log(`\n[3. Angka Ganjil dan Genap]`);
     console.log('COUNTER = 1');
     for(var i = 1; i <= 100; i = i + 1){
         if (i % 2 === 0) {
-            console.log(i + ' Genap');
+            console.log('Genap');
         } else {
-            console.log(i + ' Ganjil');
+            console.log('Ganjil');
         }
     }
 
@@ -47,8 +47,6 @@ console.log(`\n[3. Angka Ganjil dan Genap]`);
     while(a <= 100){
         if (a % 3 === 0) {
             console.log(a + ' Kelipatan 3');
-        } else {
-            console.log('"');
         }
         a = a + 2;
     }
@@ -58,8 +56,6 @@ console.log(`\n[3. Angka Ganjil dan Genap]`);
     while(a <= 100){
         if (a % 6 === 0) {
             console.log(a + ' Kelipatan 6');
-        } else{
-            console.log('"');
         }
         a = a + 5;
     }
@@ -68,21 +64,5 @@ console.log(`\n[3. Angka Ganjil dan Genap]`);
     for(var j = 1; j <= 100; j = j + 9){
         if (j % 10 === 0) {
             console.log(j + ' Kelipatan 10');
-        } else {
-            console.log('""');
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

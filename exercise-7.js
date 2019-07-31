@@ -32,3 +32,14 @@ console.log('\n3. Menyusun Barisan Tangga Bintang Dengan Nested Looping');
         }
         console.log(temp1);
     }
+
+
+    // console.log('Segitiga Kebalik');
+    // var rows4 = 5;
+    // for(var k = 1; k <= rows4; k++){
+    //     var temp1 = '';
+    //     for(var l = rows4; l >= k; l--){
+    //         temp1+='*'
+    //     }
+    //     console.log(temp1);
+    // }
