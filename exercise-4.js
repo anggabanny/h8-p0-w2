@@ -11,8 +11,8 @@ if((tanggal >= 1)&&(tanggal <= 31)){
                 if (tanggal <= 29){
                     bulan = 'Februari'; break;
                 } else {
-                    tanggal = '';
-                    bulan = 'dibulan 2, silahkan anda input tanggal 1 s/d 29';
+                    tanggal = 'dibulan 2, silahkan anda input tanggal 1 s/d 29';
+                    bulan = '';
                     tahun = '';
                     break;
                 }}
