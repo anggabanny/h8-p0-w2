@@ -21,7 +21,7 @@ console.log('\n2. Menyusun Barisan Bintang Dengan Nested Looping');
 
 // --------------------------------
 console.log('-----------------------------');
-// --------------------------------
+// -------------------------------
 
 console.log('\n3. Menyusun Barisan Tangga Bintang Dengan Nested Looping');
     var rows3 = 5;

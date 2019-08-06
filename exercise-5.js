@@ -41,7 +41,7 @@ console.log('Third Word: ' + thirdWord3);
 console.log('Fourth Word: ' + fourthWord3);
 console.log('Fifth Word: ' + fifthWord3);
 
-// ------------------------------------------------------------------------  
+// ------------------------------------------------------------------------ 
 console.log(`\n[4. Breaking Sentence (yet Again) and Count Each Length]`);
 var word4 = 'wow JavaScript is so cool';
 var exampleFirstWord4 = word.substring(0, 3);
